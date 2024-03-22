@@ -1,0 +1,33 @@
+/* Estilo geral da barra de navegação */
+.barrade.navegação {
+    background-color: blue; /* Cor de fundo da barra de navegação */
+    overflow: hidden; /* Garante que o conteúdo não ultrapasse a área definida */
+  }
+  
+  /* Estilo dos itens da lista */
+  .lista.header {
+    list-style-type: none; /* Remove os marcadores da lista */
+    margin: 0; /* Remove as margens padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+  }
+  
+  /* Estilo dos tópicos */
+  .topicos {
+    float: left; /* Alinha os itens da lista horizontalmente */
+  }
+  
+  /* Estilo dos links */
+  .topicos a {
+    display: block; /* Faz com que os links preencham todo o espaço do <li> */
+    color: white; /* Cor do texto dos links */
+    text-align: center; /* Centraliza o texto dos links */
+    padding: 14px 16px; /* Espaçamento interno dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+  }
+  
+  /* Mudança de cor ao passar o mouse */
+  .topicos a:hover {
+    background-color: #ddd; /* Cor de fundo ao passar o mouse */
+    color: black; /* Cor do texto ao passar o mouse */
+  }
+  
