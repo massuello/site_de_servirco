@@ -1,33 +1,71 @@
-/* Estilo geral da barra de navegação */
+body{
+  margin: 0;
+  padding: 0;
+}
+.paragrafo{
+  display: grid;
+  gap: 5vw;
+  height: 30vh;
+}
+.direita{
+  grid-template-columns: 1fr 3fr;
+}
+.direita div{
+  margin-right: 10px;
+}
+
+.direita div h2{
+  text-align: end;
+}
+.direita div p{
+  text-align: justify;
+}
+.esquerda{
+  background-color:grey;
+  color: white;
+  grid-template-columns: 3fr 1fr;
+  margin: 0;
+}
+.esquerda div{
+  margin-left: 10px;
+}
+.paragrafo img{
+  width: 100%;
+  height: 30vh;
+}
+
+.paragrafo p{
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+  overflow: hidden;
+}
+
 .barrade.navegação {
     background-color: blue; /* Cor de fundo da barra de navegação */
     overflow: hidden; /* Garante que o conteúdo não ultrapasse a área definida */
   }
   
-  /* Estilo dos itens da lista */
   .lista.header {
     list-style-type: none; /* Remove os marcadores da lista */
     margin: 0; /* Remove as margens padrão */
     padding: 0; /* Remove o preenchimento padrão */
   }
-  
-  /* Estilo dos tópicos */
   .topicos {
     float: left; /* Alinha os itens da lista horizontalmente */
   }
   
-  /* Estilo dos links */
   .topicos a {
     display: block; /* Faz com que os links preencham todo o espaço do <li> */
     color: white; /* Cor do texto dos links */
     text-align: center; /* Centraliza o texto dos links */
-    padding: 14px 16px; /* Espaçamento interno dos links */
+    padding: 30px 40px; /* Espaçamento interno dos links */
     text-decoration: none; /* Remove o sublinhado dos links */
+    font-size: large;
   }
   
-  /* Mudança de cor ao passar o mouse */
   .topicos a:hover {
     background-color: #ddd; /* Cor de fundo ao passar o mouse */
     color: black; /* Cor do texto ao passar o mouse */
   }
   
+
