@@ -1,6 +1,15 @@
+body.dark-mode {
+  /* Estilos para o modo escuro */
+  background-color: #1a1a1a; /* cinza escuro */
+  color: #ffffff; /* branco */
+}
 body{
   margin: 0;
   padding: 0;
+  transition: background-color 0.3s ease;
+  /* Estilos para o modo claro */
+  background-color: #ffffff; /* branco */
+  color: #000000; /* preto */
 }
 .paragrafo{
   display: grid;
